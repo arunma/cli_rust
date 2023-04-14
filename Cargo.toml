@@ -1,0 +1,10 @@
+[workspace]
+members=[
+    "echor",
+    "catr"
+]
+
+[workspace.dependencies]
+assert_cmd = "2.0.10"
+clap = {version = "4.2.1", features=["derive"]}
+predicates = "3.0.2"
